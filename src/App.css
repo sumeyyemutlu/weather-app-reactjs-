@@ -1,0 +1,88 @@
+*{
+  color:#fff
+}
+html {
+	background: url(./ross-sneddon-Lo4xaxlstOg-unsplash.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  overflow: hidden;
+}
+
+
+.navbar-search {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navbar-search input{
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border:1px solid rgb(245, 240, 240);
+  padding:.5rem 1rem;
+  width: 350px;
+  background-color: transparent;
+  color: #fff;
+  background-color: transparent rgba(0, 0, 0, 0.9);
+}
+.navbar-search input::placeholder{
+  color: rgb(235, 220, 220);
+}
+.navbar-search input:focus{
+  outline: none;
+}
+
+.weather-info-ust{
+  margin: 1rem;
+}
+
+.weather-info-ilk{
+  display: flex;
+  width: 800px;
+  align-items: flex-end;
+ 
+}
+.weather-info-ust h1{
+  font-size: 5.4rem;
+  font-weight: bold;
+  margin-top:1rem;
+  margin-bottom:2rem
+}
+.weather-info-ust p {
+
+  font-size: 1.4rem;
+}
+.weather-info-ust span {
+  font-size:  1.3rem;
+}
+
+
+.weather-info-alt{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255,255,255, 0.2);
+  margin: 205px 240px 0 240px;
+  border-radius: 12px;
+
+}
+.info1{
+  text-align: center;
+}
+.info1 p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+.info1 h3 {
+  margin-top: 0;
+  padding-top:5px ;
+}
+.desc{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.desc p{
+  font-size: 1.1rem;
+}
